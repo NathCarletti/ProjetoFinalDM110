@@ -1,0 +1,4 @@
+dependencies {
+	compile project(':dm110-api')
+	compile project(':dm110-ejb-client')
+}
