@@ -2,7 +2,7 @@
 
 Messages:
 
-Nomes JNDI das filas ou tópicos JMS:
+Nomes JNDI das filas ou tÃ³picos JMS:
 
 
 DM110Projeto - 
@@ -13,10 +13,15 @@ persistence: ipdatabase
 java:/ipdatabaseDS
 
 create database ipdatabase
+
 create table infoip (
+
 id serial primary key,
+
 ip varchar(50) not null,
+
 status boolean not null
+
 );
 
 create sequence seq_infoip;
